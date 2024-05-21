@@ -43,6 +43,6 @@ app.use("/api/notifications", notificationRoutes);
 // }
 
 app.listen(PORT, () => {
-	console.log(`Server is running on port ${PORT}`);
+	console.log(`Server is running on Port ${PORT}.`);
 	connectMongoDB();
 });
